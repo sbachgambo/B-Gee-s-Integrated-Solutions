@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Portfolio | B-Gee's Integrated Solutions</title>
+  <meta name="description" content="Explore completed projects by B-Gee's Integrated Solutions — interior finishing, POP ceilings, exterior stucco, real estate and automotive work across Nigeria.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="scroll-progress"></div>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo"><a href="index.html"><span class="logo-main">B-GEE<b>'S</b></span><span class="logo-sub">INTEGRATED SOLUTIONS</span></a></div>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="blog.html" class="nav-link">Insights</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-cta"><a href="quote.html" class="btn btn-primary btn-sm">Get a Quote</a></div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="overline">Our work</span>
+        <h1>Projects that speak for themselves</h1>
+        <p>A selection of finishing, real estate and automotive projects delivered across Nigeria.</p>
+        <div class="breadcrumb"><a href="index.html">Home</a><span>/</span>Portfolio</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter-buttons" data-reveal>
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="interior">Interior</button>
+          <button class="filter-btn" data-filter="exterior">Exterior</button>
+          <button class="filter-btn" data-filter="realestate">Real Estate</button>
+          <button class="filter-btn" data-filter="auto">Automotive</button>
+        </div>
+        <div class="portfolio-grid" id="portfolioGrid">
+          <div class="portfolio-item" data-category="interior" data-reveal data-delay="1"><div class="pf-img"><span class="pf-tag">Interior</span><img src="assets/images/port-1.jpg" alt="Luxury POP and wallpaper"></div><div class="portfolio-info"><h4>Luxury POP &amp; Wallpaper</h4><p>Residential villa, Lekki Phase 1</p></div></div>
+          <div class="portfolio-item" data-category="exterior" data-reveal data-delay="2"><div class="pf-img"><span class="pf-tag">Exterior</span><img src="assets/images/svc-stucco.jpg" alt="Modern stucco facade"></div><div class="portfolio-info"><h4>Modern Stucco Facade</h4><p>Corporate HQ, Victoria Island</p></div></div>
+          <div class="portfolio-item" data-category="realestate" data-reveal data-delay="3"><div class="pf-img"><span class="pf-tag">Real Estate</span><img src="assets/images/svc-realestate.jpg" alt="Prime land acquisition"></div><div class="portfolio-info"><h4>Prime Land Acquisition</h4><p>Real estate advisory success</p></div></div>
+          <div class="portfolio-item" data-category="interior" data-reveal data-delay="1"><div class="pf-img"><span class="pf-tag">Interior</span><img src="assets/images/port-4.jpg" alt="Corporate office fit-out"></div><div class="portfolio-info"><h4>Corporate Office Fit-out</h4><p>Painting + POP + lighting, Ikoyi</p></div></div>
+          <div class="portfolio-item" data-category="interior" data-reveal data-delay="2"><div class="pf-img"><span class="pf-tag">Interior</span><img src="assets/images/svc-pop.jpg" alt="Designer POP ceiling"></div><div class="portfolio-info"><h4>Designer POP Ceiling</h4><p>Duplex living room, Ikeja GRA</p></div></div>
+          <div class="portfolio-item" data-category="interior" data-reveal data-delay="3"><div class="pf-img"><span class="pf-tag">Interior</span><img src="assets/images/svc-painting.jpg" alt="Premium interior painting"></div><div class="portfolio-info"><h4>Premium Interior Painting</h4><p>Family home, Ajah</p></div></div>
+          <div class="portfolio-item" data-category="exterior" data-reveal data-delay="1"><div class="pf-img"><span class="pf-tag">Exterior</span><img src="assets/images/port-5.jpg" alt="Exterior render and finish"></div><div class="portfolio-info"><h4>Exterior Render &amp; Finish</h4><p>Terrace estate, Chevron Drive</p></div></div>
+          <div class="portfolio-item" data-category="interior" data-reveal data-delay="2"><div class="pf-img"><span class="pf-tag">Interior</span><img src="assets/images/port-2.jpg" alt="Modern interior finishing"></div><div class="portfolio-info"><h4>Contemporary Interior</h4><p>Apartment refit, Yaba</p></div></div>
+          <div class="portfolio-item" data-category="realestate" data-reveal data-delay="3"><div class="pf-img"><span class="pf-tag">Real Estate</span><img src="assets/images/port-3.jpg" alt="Property management"></div><div class="portfolio-info"><h4>Property Sales &amp; Rentals</h4><p>Managed portfolio, Lagos Mainland</p></div></div>
+          <div class="portfolio-item" data-category="auto" data-reveal data-delay="1"><div class="pf-img"><span class="pf-tag">Automotive</span><img src="assets/images/svc-auto.jpg" alt="Fleet servicing"></div><div class="portfolio-info"><h4>Corporate Fleet Servicing</h4><p>Scheduled maintenance contract</p></div></div>
+          <div class="portfolio-item" data-category="auto" data-reveal data-delay="2"><div class="pf-img"><span class="pf-tag">Automotive</span><img src="assets/images/auto-engine.jpg" alt="Engine diagnostics"></div><div class="portfolio-info"><h4>Engine Diagnostics &amp; Repair</h4><p>Preventive care programme</p></div></div>
+          <div class="portfolio-item" data-category="exterior" data-reveal data-delay="3"><div class="pf-img"><span class="pf-tag">Exterior</span><img src="assets/images/port-6.jpg" alt="Building exterior upgrade"></div><div class="portfolio-info"><h4>Building Exterior Upgrade</h4><p>Commercial plaza, Surulere</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container cta-inner" data-reveal>
+        <h2>Imagine your project here</h2>
+        <p>Let's create something you'll be proud to show off.</p>
+        <div class="btn-row">
+          <a href="quote.html" class="btn btn-gold btn-large">Start your project <i class="fas fa-chevron-right"></i></a>
+          <a href="services.html" class="btn btn-outline">Our services</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo">B-GEE<b>'S</b> Integrated Solutions</div>
+        <p>Premium multi-service excellence for residential, corporate and institutional clients across Nigeria.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="blog.html">Insights</a></li></ul></div>
+      <div class="footer-col"><h4>Support</h4><ul><li><a href="contact.html">Contact</a></li><li><a href="quote.html">Request a Quote</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms &amp; Conditions</a></li></ul></div>
+      <div class="footer-col">
+        <h4>Get in touch</h4>
+        <ul class="contact-info">
+          <li><i class="fas fa-phone-alt"></i> +234 (0) 812 345 6789</li>
+          <li><i class="fas fa-envelope"></i> hello@bgeesintegrated.com</li>
+          <li><i class="fas fa-map-marker-alt"></i> 15 Admiralty Way, Lekki Phase 1, Lagos</li>
+        </ul>
+        <form class="footer-news" id="newsForm">
+          <input type="email" name="email" placeholder="Your email" required aria-label="Email for newsletter">
+          <button type="submit" aria-label="Subscribe"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span class="js-year">2025</span> B-Gee's Integrated Solutions — Trust &amp; Quality First.</p>
+        <div class="fb-links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2348123456789" class="wa-float" aria-label="Chat on WhatsApp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+  <button class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Reference / source materials — not part of the deployed site
+Babs Integrated Solutions — Website sample.pdf
+Brand_Identity_and_Website_Document.docx
+Website.mp4
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
